@@ -3,10 +3,10 @@ package protocol
 import (
 	"fmt"
 
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/keys/identity"
-	"timtyndale/libsignal-protocol-go/signalerror"
-	"timtyndale/libsignal-protocol-go/util/optional"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/keys/identity"
+	"github.com/timtyndale/libsignal-protocol-go/signalerror"
+	"github.com/timtyndale/libsignal-protocol-go/util/optional"
 )
 
 // PreKeySignalMessageSerializer is an interface for serializing and deserializing

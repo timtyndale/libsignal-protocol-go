@@ -3,13 +3,13 @@ package groups
 import (
 	"fmt"
 
-	"timtyndale/libsignal-protocol-go/cipher"
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/groups/ratchet"
-	"timtyndale/libsignal-protocol-go/groups/state/record"
-	"timtyndale/libsignal-protocol-go/groups/state/store"
-	"timtyndale/libsignal-protocol-go/protocol"
-	"timtyndale/libsignal-protocol-go/signalerror"
+	"github.com/timtyndale/libsignal-protocol-go/cipher"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/groups/ratchet"
+	"github.com/timtyndale/libsignal-protocol-go/groups/state/record"
+	"github.com/timtyndale/libsignal-protocol-go/groups/state/store"
+	"github.com/timtyndale/libsignal-protocol-go/protocol"
+	"github.com/timtyndale/libsignal-protocol-go/signalerror"
 )
 
 // NewGroupCipher will return a new group message cipher that can be used for

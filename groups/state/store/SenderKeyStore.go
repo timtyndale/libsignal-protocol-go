@@ -1,8 +1,8 @@
 package store
 
 import (
-	"timtyndale/libsignal-protocol-go/groups/state/record"
-	"timtyndale/libsignal-protocol-go/protocol"
+	"github.com/timtyndale/libsignal-protocol-go/groups/state/record"
+	"github.com/timtyndale/libsignal-protocol-go/protocol"
 )
 
 type SenderKey interface {

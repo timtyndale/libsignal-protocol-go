@@ -1,13 +1,13 @@
 package tests
 
 import (
-	"timtyndale/libsignal-protocol-go/groups"
-	"timtyndale/libsignal-protocol-go/keys/identity"
-	"timtyndale/libsignal-protocol-go/protocol"
-	"timtyndale/libsignal-protocol-go/serialize"
-	"timtyndale/libsignal-protocol-go/session"
-	"timtyndale/libsignal-protocol-go/state/record"
-	"timtyndale/libsignal-protocol-go/util/keyhelper"
+	"github.com/timtyndale/libsignal-protocol-go/groups"
+	"github.com/timtyndale/libsignal-protocol-go/keys/identity"
+	"github.com/timtyndale/libsignal-protocol-go/protocol"
+	"github.com/timtyndale/libsignal-protocol-go/serialize"
+	"github.com/timtyndale/libsignal-protocol-go/session"
+	"github.com/timtyndale/libsignal-protocol-go/state/record"
+	"github.com/timtyndale/libsignal-protocol-go/util/keyhelper"
 )
 
 // user is a structure for a signal user.

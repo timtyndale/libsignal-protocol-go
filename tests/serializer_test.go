@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"timtyndale/libsignal-protocol-go/keys/prekey"
-	"timtyndale/libsignal-protocol-go/logger"
-	"timtyndale/libsignal-protocol-go/session"
-	"timtyndale/libsignal-protocol-go/state/record"
+	"github.com/timtyndale/libsignal-protocol-go/keys/prekey"
+	"github.com/timtyndale/libsignal-protocol-go/logger"
+	"github.com/timtyndale/libsignal-protocol-go/session"
+	"github.com/timtyndale/libsignal-protocol-go/state/record"
 )
 
 // TestSerializing tests serialization and deserialization of Signal objects.

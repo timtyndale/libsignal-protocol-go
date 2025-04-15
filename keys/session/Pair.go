@@ -3,9 +3,9 @@
 package session
 
 import (
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/keys/chain"
-	"timtyndale/libsignal-protocol-go/keys/message"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/keys/chain"
+	"github.com/timtyndale/libsignal-protocol-go/keys/message"
 )
 
 // RootKeyable is an interface for all root key implementations that are part of

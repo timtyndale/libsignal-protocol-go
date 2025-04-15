@@ -4,17 +4,17 @@ package session
 import (
 	"fmt"
 
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/keys/prekey"
-	"timtyndale/libsignal-protocol-go/logger"
-	"timtyndale/libsignal-protocol-go/protocol"
-	"timtyndale/libsignal-protocol-go/ratchet"
-	"timtyndale/libsignal-protocol-go/serialize"
-	"timtyndale/libsignal-protocol-go/signalerror"
-	"timtyndale/libsignal-protocol-go/state/record"
-	"timtyndale/libsignal-protocol-go/state/store"
-	"timtyndale/libsignal-protocol-go/util/medium"
-	"timtyndale/libsignal-protocol-go/util/optional"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/keys/prekey"
+	"github.com/timtyndale/libsignal-protocol-go/logger"
+	"github.com/timtyndale/libsignal-protocol-go/protocol"
+	"github.com/timtyndale/libsignal-protocol-go/ratchet"
+	"github.com/timtyndale/libsignal-protocol-go/serialize"
+	"github.com/timtyndale/libsignal-protocol-go/signalerror"
+	"github.com/timtyndale/libsignal-protocol-go/state/record"
+	"github.com/timtyndale/libsignal-protocol-go/state/store"
+	"github.com/timtyndale/libsignal-protocol-go/util/medium"
+	"github.com/timtyndale/libsignal-protocol-go/util/optional"
 )
 
 // NewBuilder constructs a session builder.

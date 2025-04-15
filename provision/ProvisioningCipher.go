@@ -8,12 +8,12 @@ import (
 	"errors"
 	"fmt"
 
-	"timtyndale/libsignal-protocol-go/cipher"
-	"timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/cipher"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
 
-	"timtyndale/libsignal-protocol-go/kdf"
-	"timtyndale/libsignal-protocol-go/keys/root"
-	"timtyndale/libsignal-protocol-go/util/bytehelper"
+	"github.com/timtyndale/libsignal-protocol-go/kdf"
+	"github.com/timtyndale/libsignal-protocol-go/keys/root"
+	"github.com/timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 type ProvisionMessage struct {

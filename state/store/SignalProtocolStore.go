@@ -1,7 +1,7 @@
 package store
 
 import (
-	"timtyndale/libsignal-protocol-go/groups/state/store"
+	"github.com/timtyndale/libsignal-protocol-go/groups/state/store"
 )
 
 // SignalProtocol store is an interface that implements the

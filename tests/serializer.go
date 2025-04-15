@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"timtyndale/libsignal-protocol-go/serialize"
+	"github.com/timtyndale/libsignal-protocol-go/serialize"
 )
 
 // newSerializer will return a JSON serializer for testing.

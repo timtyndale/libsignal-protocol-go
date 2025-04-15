@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/keys/identity"
-	"timtyndale/libsignal-protocol-go/logger"
-	"timtyndale/libsignal-protocol-go/signalerror"
-	"timtyndale/libsignal-protocol-go/util/bytehelper"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/keys/identity"
+	"github.com/timtyndale/libsignal-protocol-go/logger"
+	"github.com/timtyndale/libsignal-protocol-go/signalerror"
+	"github.com/timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 const MacLength int = 8

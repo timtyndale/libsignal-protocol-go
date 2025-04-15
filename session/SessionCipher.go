@@ -3,16 +3,16 @@ package session
 import (
 	"fmt"
 
-	"timtyndale/libsignal-protocol-go/cipher"
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/keys/chain"
-	"timtyndale/libsignal-protocol-go/keys/message"
-	"timtyndale/libsignal-protocol-go/logger"
-	"timtyndale/libsignal-protocol-go/protocol"
-	"timtyndale/libsignal-protocol-go/signalerror"
-	"timtyndale/libsignal-protocol-go/state/record"
-	"timtyndale/libsignal-protocol-go/state/store"
-	"timtyndale/libsignal-protocol-go/util/bytehelper"
+	"github.com/timtyndale/libsignal-protocol-go/cipher"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/keys/chain"
+	"github.com/timtyndale/libsignal-protocol-go/keys/message"
+	"github.com/timtyndale/libsignal-protocol-go/logger"
+	"github.com/timtyndale/libsignal-protocol-go/protocol"
+	"github.com/timtyndale/libsignal-protocol-go/signalerror"
+	"github.com/timtyndale/libsignal-protocol-go/state/record"
+	"github.com/timtyndale/libsignal-protocol-go/state/store"
+	"github.com/timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 const maxFutureMessages = 2000

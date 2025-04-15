@@ -3,11 +3,11 @@ package tests
 import (
 	"testing"
 
-	"timtyndale/libsignal-protocol-go/keys/message"
-	"timtyndale/libsignal-protocol-go/keys/prekey"
-	"timtyndale/libsignal-protocol-go/logger"
-	"timtyndale/libsignal-protocol-go/protocol"
-	"timtyndale/libsignal-protocol-go/session"
+	"github.com/timtyndale/libsignal-protocol-go/keys/message"
+	"github.com/timtyndale/libsignal-protocol-go/keys/prekey"
+	"github.com/timtyndale/libsignal-protocol-go/logger"
+	"github.com/timtyndale/libsignal-protocol-go/protocol"
+	"github.com/timtyndale/libsignal-protocol-go/session"
 )
 
 // TestSavedMessageKeys tests the ability to save message keys for use in

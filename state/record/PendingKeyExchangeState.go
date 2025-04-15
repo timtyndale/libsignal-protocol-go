@@ -1,9 +1,9 @@
 package record
 
 import (
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/keys/identity"
-	"timtyndale/libsignal-protocol-go/util/bytehelper"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/keys/identity"
+	"github.com/timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 // NewPendingKeyExchange will return a new PendingKeyExchange object.

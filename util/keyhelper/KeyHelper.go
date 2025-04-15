@@ -6,9 +6,9 @@ import (
 	"encoding/binary"
 	"time"
 
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/keys/identity"
-	"timtyndale/libsignal-protocol-go/state/record"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/keys/identity"
+	"github.com/timtyndale/libsignal-protocol-go/state/record"
 )
 
 // GenerateIdentityKeyPair generates an identity keypair used for

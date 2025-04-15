@@ -1,8 +1,8 @@
 package record
 
 import (
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/util/bytehelper"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 // SignedPreKeySerializer is an interface for serializing and deserializing

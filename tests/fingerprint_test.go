@@ -2,7 +2,7 @@ package tests
 
 import (
 	"fmt"
-	"timtyndale/libsignal-protocol-go/fingerprint"
+	"github.com/timtyndale/libsignal-protocol-go/fingerprint"
 	"testing"
 )
 

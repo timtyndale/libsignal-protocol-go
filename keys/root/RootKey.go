@@ -3,10 +3,10 @@
 package root
 
 import (
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/kdf"
-	"timtyndale/libsignal-protocol-go/keys/chain"
-	"timtyndale/libsignal-protocol-go/keys/session"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/kdf"
+	"github.com/timtyndale/libsignal-protocol-go/keys/chain"
+	"github.com/timtyndale/libsignal-protocol-go/keys/session"
 )
 
 // DerivedSecretsSize is the size of the derived secrets for root keys.

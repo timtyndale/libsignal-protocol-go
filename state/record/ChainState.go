@@ -1,11 +1,11 @@
 package record
 
 import (
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/kdf"
-	"timtyndale/libsignal-protocol-go/keys/chain"
-	"timtyndale/libsignal-protocol-go/keys/message"
-	"timtyndale/libsignal-protocol-go/util/bytehelper"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/kdf"
+	"github.com/timtyndale/libsignal-protocol-go/keys/chain"
+	"github.com/timtyndale/libsignal-protocol-go/keys/message"
+	"github.com/timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 // NewReceiverChainPair will return a new ReceiverChainPair object.

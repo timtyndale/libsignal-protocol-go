@@ -1,9 +1,9 @@
 package record
 
 import (
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/groups/ratchet"
-	"timtyndale/libsignal-protocol-go/util/bytehelper"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/groups/ratchet"
+	"github.com/timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 const maxMessageKeys = 2000

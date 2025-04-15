@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/crypto/curve25519"
 
-	"timtyndale/libsignal-protocol-go/logger"
+	"github.com/timtyndale/libsignal-protocol-go/logger"
 )
 
 // DjbType is the Diffie-Hellman curve type (curve25519) created by D. J. Bernstein.

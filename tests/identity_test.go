@@ -3,9 +3,9 @@ package tests
 import (
 	"testing"
 
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/logger"
-	"timtyndale/libsignal-protocol-go/util/keyhelper"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/logger"
+	"github.com/timtyndale/libsignal-protocol-go/util/keyhelper"
 )
 
 // TestIdentityKeys checks generating, signing, and verifying of identity keys.

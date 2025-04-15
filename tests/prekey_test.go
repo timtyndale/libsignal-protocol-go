@@ -3,9 +3,9 @@ package tests
 import (
 	"testing"
 
-	"timtyndale/libsignal-protocol-go/logger"
-	"timtyndale/libsignal-protocol-go/serialize"
-	"timtyndale/libsignal-protocol-go/util/keyhelper"
+	"github.com/timtyndale/libsignal-protocol-go/logger"
+	"github.com/timtyndale/libsignal-protocol-go/serialize"
+	"github.com/timtyndale/libsignal-protocol-go/util/keyhelper"
 )
 
 // TestPreKeys checks generating prekeys.

@@ -1,7 +1,7 @@
 package store
 
 import (
-	"timtyndale/libsignal-protocol-go/state/record"
+	"github.com/timtyndale/libsignal-protocol-go/state/record"
 )
 
 // PreKey store is an interface describing the local storage

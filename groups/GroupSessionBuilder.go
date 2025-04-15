@@ -9,11 +9,11 @@
 package groups
 
 import (
-	"timtyndale/libsignal-protocol-go/groups/state/record"
-	"timtyndale/libsignal-protocol-go/groups/state/store"
-	"timtyndale/libsignal-protocol-go/protocol"
-	"timtyndale/libsignal-protocol-go/serialize"
-	"timtyndale/libsignal-protocol-go/util/keyhelper"
+	"github.com/timtyndale/libsignal-protocol-go/groups/state/record"
+	"github.com/timtyndale/libsignal-protocol-go/groups/state/store"
+	"github.com/timtyndale/libsignal-protocol-go/protocol"
+	"github.com/timtyndale/libsignal-protocol-go/serialize"
+	"github.com/timtyndale/libsignal-protocol-go/util/keyhelper"
 )
 
 // NewGroupSessionBuilder will return a new group session builder.

@@ -1,16 +1,16 @@
 package record
 
 import (
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/kdf"
-	"timtyndale/libsignal-protocol-go/keys/chain"
-	"timtyndale/libsignal-protocol-go/keys/identity"
-	"timtyndale/libsignal-protocol-go/keys/message"
-	"timtyndale/libsignal-protocol-go/keys/root"
-	"timtyndale/libsignal-protocol-go/keys/session"
-	"timtyndale/libsignal-protocol-go/logger"
-	"timtyndale/libsignal-protocol-go/util/errorhelper"
-	"timtyndale/libsignal-protocol-go/util/optional"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/kdf"
+	"github.com/timtyndale/libsignal-protocol-go/keys/chain"
+	"github.com/timtyndale/libsignal-protocol-go/keys/identity"
+	"github.com/timtyndale/libsignal-protocol-go/keys/message"
+	"github.com/timtyndale/libsignal-protocol-go/keys/root"
+	"github.com/timtyndale/libsignal-protocol-go/keys/session"
+	"github.com/timtyndale/libsignal-protocol-go/logger"
+	"github.com/timtyndale/libsignal-protocol-go/util/errorhelper"
+	"github.com/timtyndale/libsignal-protocol-go/util/optional"
 )
 
 const maxMessageKeys int = 2000

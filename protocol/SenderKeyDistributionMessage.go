@@ -3,8 +3,8 @@ package protocol
 import (
 	"fmt"
 
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/signalerror"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/signalerror"
 )
 
 // SenderKeyDistributionMessageSerializer is an interface for serializing and deserializing

@@ -3,11 +3,11 @@ package tests
 import (
 	"testing"
 
-	"timtyndale/libsignal-protocol-go/keys/prekey"
-	"timtyndale/libsignal-protocol-go/logger"
-	"timtyndale/libsignal-protocol-go/protocol"
-	"timtyndale/libsignal-protocol-go/serialize"
-	"timtyndale/libsignal-protocol-go/session"
+	"github.com/timtyndale/libsignal-protocol-go/keys/prekey"
+	"github.com/timtyndale/libsignal-protocol-go/logger"
+	"github.com/timtyndale/libsignal-protocol-go/protocol"
+	"github.com/timtyndale/libsignal-protocol-go/serialize"
+	"github.com/timtyndale/libsignal-protocol-go/session"
 )
 
 // TestSessionBuilder checks building of a session.

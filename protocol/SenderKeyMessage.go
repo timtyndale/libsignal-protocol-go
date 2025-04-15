@@ -3,9 +3,9 @@ package protocol
 import (
 	"fmt"
 
-	"timtyndale/libsignal-protocol-go/ecc"
-	"timtyndale/libsignal-protocol-go/signalerror"
-	"timtyndale/libsignal-protocol-go/util/bytehelper"
+	"github.com/timtyndale/libsignal-protocol-go/ecc"
+	"github.com/timtyndale/libsignal-protocol-go/signalerror"
+	"github.com/timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 // SenderKeyMessageSerializer is an interface for serializing and deserializing

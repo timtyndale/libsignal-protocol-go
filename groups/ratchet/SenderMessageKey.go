@@ -1,8 +1,8 @@
 package ratchet
 
 import (
-	"timtyndale/libsignal-protocol-go/kdf"
-	"timtyndale/libsignal-protocol-go/util/bytehelper"
+	"github.com/timtyndale/libsignal-protocol-go/kdf"
+	"github.com/timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 // KdfInfo is optional bytes to include in deriving secrets with KDF.
