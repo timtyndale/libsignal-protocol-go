@@ -1,4 +1,4 @@
-module go.mau.fi/libsignal
+module timtyndale/libsignal-protocol-go
 
 go 1.23.0
 
