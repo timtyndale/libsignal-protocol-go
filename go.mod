@@ -1,4 +1,4 @@
-module timtyndale/libsignal-protocol-go
+module github.com/timtyndale/libsignal-protocol-go
 
 go 1.23.0
 
