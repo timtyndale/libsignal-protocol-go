@@ -1,11 +1,11 @@
 package record
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/kdf"
-	"go.mau.fi/libsignal/keys/chain"
-	"go.mau.fi/libsignal/keys/message"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/kdf"
+	"timtyndale/libsignal-protocol-go/keys/chain"
+	"timtyndale/libsignal-protocol-go/keys/message"
+	"timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 // NewReceiverChainPair will return a new ReceiverChainPair object.

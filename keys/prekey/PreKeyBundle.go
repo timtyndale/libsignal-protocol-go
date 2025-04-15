@@ -3,9 +3,9 @@
 package prekey
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/util/optional"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/keys/identity"
+	"timtyndale/libsignal-protocol-go/util/optional"
 )
 
 // NewBundle returns a Bundle structure that contains a remote PreKey

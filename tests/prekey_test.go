@@ -3,9 +3,9 @@ package tests
 import (
 	"testing"
 
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/serialize"
-	"go.mau.fi/libsignal/util/keyhelper"
+	"timtyndale/libsignal-protocol-go/logger"
+	"timtyndale/libsignal-protocol-go/serialize"
+	"timtyndale/libsignal-protocol-go/util/keyhelper"
 )
 
 // TestPreKeys checks generating prekeys.

@@ -6,9 +6,9 @@ import (
 	"encoding/binary"
 	"time"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/state/record"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/keys/identity"
+	"timtyndale/libsignal-protocol-go/state/record"
 )
 
 // GenerateIdentityKeyPair generates an identity keypair used for

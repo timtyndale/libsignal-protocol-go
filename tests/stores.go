@@ -1,11 +1,11 @@
 package tests
 
 import (
-	groupRecord "go.mau.fi/libsignal/groups/state/record"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/serialize"
-	"go.mau.fi/libsignal/state/record"
+	groupRecord "timtyndale/libsignal-protocol-go/groups/state/record"
+	"timtyndale/libsignal-protocol-go/keys/identity"
+	"timtyndale/libsignal-protocol-go/protocol"
+	"timtyndale/libsignal-protocol-go/serialize"
+	"timtyndale/libsignal-protocol-go/state/record"
 )
 
 // Define some in-memory stores for testing.

@@ -9,11 +9,11 @@
 package groups
 
 import (
-	"go.mau.fi/libsignal/groups/state/record"
-	"go.mau.fi/libsignal/groups/state/store"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/serialize"
-	"go.mau.fi/libsignal/util/keyhelper"
+	"timtyndale/libsignal-protocol-go/groups/state/record"
+	"timtyndale/libsignal-protocol-go/groups/state/store"
+	"timtyndale/libsignal-protocol-go/protocol"
+	"timtyndale/libsignal-protocol-go/serialize"
+	"timtyndale/libsignal-protocol-go/util/keyhelper"
 )
 
 // NewGroupSessionBuilder will return a new group session builder.

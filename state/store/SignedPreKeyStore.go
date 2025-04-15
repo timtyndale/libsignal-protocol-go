@@ -1,7 +1,7 @@
 package store
 
 import (
-	"go.mau.fi/libsignal/state/record"
+	"timtyndale/libsignal-protocol-go/state/record"
 )
 
 // SignedPreKey store is an interface that describes how to persistently

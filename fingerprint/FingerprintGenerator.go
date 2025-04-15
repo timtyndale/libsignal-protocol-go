@@ -1,7 +1,7 @@
 package fingerprint
 
 import (
-	"go.mau.fi/libsignal/keys/identity"
+	"timtyndale/libsignal-protocol-go/keys/identity"
 )
 
 // FingerprintGenerator is an interface for fingerprint generators.

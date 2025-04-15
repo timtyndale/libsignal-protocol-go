@@ -3,11 +3,11 @@ package tests
 import (
 	"testing"
 
-	"go.mau.fi/libsignal/keys/message"
-	"go.mau.fi/libsignal/keys/prekey"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/session"
+	"timtyndale/libsignal-protocol-go/keys/message"
+	"timtyndale/libsignal-protocol-go/keys/prekey"
+	"timtyndale/libsignal-protocol-go/logger"
+	"timtyndale/libsignal-protocol-go/protocol"
+	"timtyndale/libsignal-protocol-go/session"
 )
 
 // TestSavedMessageKeys tests the ability to save message keys for use in

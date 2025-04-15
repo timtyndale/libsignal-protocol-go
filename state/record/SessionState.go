@@ -1,16 +1,16 @@
 package record
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/kdf"
-	"go.mau.fi/libsignal/keys/chain"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/keys/message"
-	"go.mau.fi/libsignal/keys/root"
-	"go.mau.fi/libsignal/keys/session"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/util/errorhelper"
-	"go.mau.fi/libsignal/util/optional"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/kdf"
+	"timtyndale/libsignal-protocol-go/keys/chain"
+	"timtyndale/libsignal-protocol-go/keys/identity"
+	"timtyndale/libsignal-protocol-go/keys/message"
+	"timtyndale/libsignal-protocol-go/keys/root"
+	"timtyndale/libsignal-protocol-go/keys/session"
+	"timtyndale/libsignal-protocol-go/logger"
+	"timtyndale/libsignal-protocol-go/util/errorhelper"
+	"timtyndale/libsignal-protocol-go/util/optional"
 )
 
 const maxMessageKeys int = 2000

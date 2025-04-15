@@ -1,8 +1,8 @@
 package record
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 // SignedPreKeySerializer is an interface for serializing and deserializing

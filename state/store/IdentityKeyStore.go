@@ -1,8 +1,8 @@
 package store
 
 import (
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/protocol"
+	"timtyndale/libsignal-protocol-go/keys/identity"
+	"timtyndale/libsignal-protocol-go/protocol"
 )
 
 // IdentityKey provides an interface to identity information.

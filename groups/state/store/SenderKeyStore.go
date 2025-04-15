@@ -1,8 +1,8 @@
 package store
 
 import (
-	"go.mau.fi/libsignal/groups/state/record"
-	"go.mau.fi/libsignal/protocol"
+	"timtyndale/libsignal-protocol-go/groups/state/record"
+	"timtyndale/libsignal-protocol-go/protocol"
 )
 
 type SenderKey interface {

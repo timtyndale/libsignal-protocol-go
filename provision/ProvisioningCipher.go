@@ -8,12 +8,12 @@ import (
 	"errors"
 	"fmt"
 
-	"go.mau.fi/libsignal/cipher"
-	"go.mau.fi/libsignal/ecc"
+	"timtyndale/libsignal-protocol-go/cipher"
+	"timtyndale/libsignal-protocol-go/ecc"
 
-	"go.mau.fi/libsignal/kdf"
-	"go.mau.fi/libsignal/keys/root"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"timtyndale/libsignal-protocol-go/kdf"
+	"timtyndale/libsignal-protocol-go/keys/root"
+	"timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 type ProvisionMessage struct {

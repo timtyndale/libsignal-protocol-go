@@ -3,9 +3,9 @@ package protocol
 import (
 	"fmt"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/signalerror"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/signalerror"
+	"timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 // SenderKeyMessageSerializer is an interface for serializing and deserializing

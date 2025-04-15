@@ -2,9 +2,9 @@ package tests
 
 import (
 	"encoding/base64"
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/kdf"
-	"go.mau.fi/libsignal/logger"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/kdf"
+	"timtyndale/libsignal-protocol-go/logger"
 	"testing"
 )
 

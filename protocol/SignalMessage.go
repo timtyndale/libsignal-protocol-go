@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/signalerror"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/keys/identity"
+	"timtyndale/libsignal-protocol-go/logger"
+	"timtyndale/libsignal-protocol-go/signalerror"
+	"timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 const MacLength int = 8

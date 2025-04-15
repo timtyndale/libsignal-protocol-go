@@ -1,8 +1,8 @@
 package ratchet
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/identity"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/keys/identity"
 )
 
 // SymmetricParameters describes the session parameters for sessions where

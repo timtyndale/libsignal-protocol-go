@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"go.mau.fi/libsignal/keys/prekey"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/session"
-	"go.mau.fi/libsignal/state/record"
+	"timtyndale/libsignal-protocol-go/keys/prekey"
+	"timtyndale/libsignal-protocol-go/logger"
+	"timtyndale/libsignal-protocol-go/session"
+	"timtyndale/libsignal-protocol-go/state/record"
 )
 
 // TestSerializing tests serialization and deserialization of Signal objects.

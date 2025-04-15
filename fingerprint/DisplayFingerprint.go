@@ -2,7 +2,7 @@ package fingerprint
 
 import (
 	"fmt"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 // NewDisplay will return a new displayable fingerprint.

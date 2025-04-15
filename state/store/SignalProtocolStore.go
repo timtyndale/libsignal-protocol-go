@@ -1,7 +1,7 @@
 package store
 
 import (
-	"go.mau.fi/libsignal/groups/state/store"
+	"timtyndale/libsignal-protocol-go/groups/state/store"
 )
 
 // SignalProtocol store is an interface that implements the

@@ -3,10 +3,10 @@
 package root
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/kdf"
-	"go.mau.fi/libsignal/keys/chain"
-	"go.mau.fi/libsignal/keys/session"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/kdf"
+	"timtyndale/libsignal-protocol-go/keys/chain"
+	"timtyndale/libsignal-protocol-go/keys/session"
 )
 
 // DerivedSecretsSize is the size of the derived secrets for root keys.

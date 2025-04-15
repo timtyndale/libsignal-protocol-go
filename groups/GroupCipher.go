@@ -3,13 +3,13 @@ package groups
 import (
 	"fmt"
 
-	"go.mau.fi/libsignal/cipher"
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/groups/ratchet"
-	"go.mau.fi/libsignal/groups/state/record"
-	"go.mau.fi/libsignal/groups/state/store"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/signalerror"
+	"timtyndale/libsignal-protocol-go/cipher"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/groups/ratchet"
+	"timtyndale/libsignal-protocol-go/groups/state/record"
+	"timtyndale/libsignal-protocol-go/groups/state/store"
+	"timtyndale/libsignal-protocol-go/protocol"
+	"timtyndale/libsignal-protocol-go/signalerror"
 )
 
 // NewGroupCipher will return a new group message cipher that can be used for

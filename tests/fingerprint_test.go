@@ -2,7 +2,7 @@ package tests
 
 import (
 	"fmt"
-	"go.mau.fi/libsignal/fingerprint"
+	"timtyndale/libsignal-protocol-go/fingerprint"
 	"testing"
 )
 

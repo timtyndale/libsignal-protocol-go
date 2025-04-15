@@ -1,8 +1,8 @@
 package record
 
 import (
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/util/optional"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/util/optional"
 )
 
 // NewPendingPreKey will return a new pending pre key object.

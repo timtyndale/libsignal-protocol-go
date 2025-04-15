@@ -1,13 +1,13 @@
 package tests
 
 import (
-	"go.mau.fi/libsignal/groups"
-	"go.mau.fi/libsignal/keys/identity"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/serialize"
-	"go.mau.fi/libsignal/session"
-	"go.mau.fi/libsignal/state/record"
-	"go.mau.fi/libsignal/util/keyhelper"
+	"timtyndale/libsignal-protocol-go/groups"
+	"timtyndale/libsignal-protocol-go/keys/identity"
+	"timtyndale/libsignal-protocol-go/protocol"
+	"timtyndale/libsignal-protocol-go/serialize"
+	"timtyndale/libsignal-protocol-go/session"
+	"timtyndale/libsignal-protocol-go/state/record"
+	"timtyndale/libsignal-protocol-go/util/keyhelper"
 )
 
 // user is a structure for a signal user.

@@ -3,9 +3,9 @@ package tests
 import (
 	"testing"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/util/keyhelper"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/logger"
+	"timtyndale/libsignal-protocol-go/util/keyhelper"
 )
 
 // TestIdentityKeys checks generating, signing, and verifying of identity keys.

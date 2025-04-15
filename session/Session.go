@@ -4,17 +4,17 @@ package session
 import (
 	"fmt"
 
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/prekey"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/ratchet"
-	"go.mau.fi/libsignal/serialize"
-	"go.mau.fi/libsignal/signalerror"
-	"go.mau.fi/libsignal/state/record"
-	"go.mau.fi/libsignal/state/store"
-	"go.mau.fi/libsignal/util/medium"
-	"go.mau.fi/libsignal/util/optional"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/keys/prekey"
+	"timtyndale/libsignal-protocol-go/logger"
+	"timtyndale/libsignal-protocol-go/protocol"
+	"timtyndale/libsignal-protocol-go/ratchet"
+	"timtyndale/libsignal-protocol-go/serialize"
+	"timtyndale/libsignal-protocol-go/signalerror"
+	"timtyndale/libsignal-protocol-go/state/record"
+	"timtyndale/libsignal-protocol-go/state/store"
+	"timtyndale/libsignal-protocol-go/util/medium"
+	"timtyndale/libsignal-protocol-go/util/optional"
 )
 
 // NewBuilder constructs a session builder.

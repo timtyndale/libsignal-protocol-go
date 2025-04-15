@@ -3,16 +3,16 @@ package session
 import (
 	"fmt"
 
-	"go.mau.fi/libsignal/cipher"
-	"go.mau.fi/libsignal/ecc"
-	"go.mau.fi/libsignal/keys/chain"
-	"go.mau.fi/libsignal/keys/message"
-	"go.mau.fi/libsignal/logger"
-	"go.mau.fi/libsignal/protocol"
-	"go.mau.fi/libsignal/signalerror"
-	"go.mau.fi/libsignal/state/record"
-	"go.mau.fi/libsignal/state/store"
-	"go.mau.fi/libsignal/util/bytehelper"
+	"timtyndale/libsignal-protocol-go/cipher"
+	"timtyndale/libsignal-protocol-go/ecc"
+	"timtyndale/libsignal-protocol-go/keys/chain"
+	"timtyndale/libsignal-protocol-go/keys/message"
+	"timtyndale/libsignal-protocol-go/logger"
+	"timtyndale/libsignal-protocol-go/protocol"
+	"timtyndale/libsignal-protocol-go/signalerror"
+	"timtyndale/libsignal-protocol-go/state/record"
+	"timtyndale/libsignal-protocol-go/state/store"
+	"timtyndale/libsignal-protocol-go/util/bytehelper"
 )
 
 const maxFutureMessages = 2000
